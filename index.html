@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buget</title>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="top">
+        <div class="container-top">
+
+            <h2 class="titlu">Buget valabi pe luna <span class="luna-actuala">August</span></h2>
+            <div class="buget-total">+ 23.000</div>
+
+            <div class="venituri">
+                <div class="venituri-text">VENITURI</div>
+                <div class="venituri-valori">+ 15.000</div>
+                
+            </div>
+
+            <div class="cheltuieli">
+                <div class="buget-cheltuieli-text">CHELTUIELI</div>
+                <div class="cheltuieli-valori">- 10.000</div>
+                <div class="procent-cheltuieli">20 %</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="add">
+            <div class="add-container">
+
+                <select class="type" name="" id="">
+                    <option value="ven">+</option>
+                    <option value="che">-</option>
+                </select>
+
+                <input class="descriere" type="text" placeholder="Adauga descriere" name="" id="">
+
+                <input type="number" name="" id="" placeholder="Valoare" class="valoare">
+
+                <button class="btn_add"><span class="iconify" data-icon="ion-ios-checkmark-outline" data-inline="false"></span></button>
+            </div>
+        </div>
+
+        <div class="bottom-container">
+
+            <div class="bottom-left list">
+                <div class="titlu-venituri">VENITURI</div>
+
+                <div class="lista-venituri">
+
+                   
+
+                    <!-- <div class="item" id="venit-0">
+                        <div class="descriere" >Asta e descrierea</div>
+
+                        <div class="valoare-stergere">
+                            <div class="valoare-item">+200</div>
+                            <span class="iconify" data-icon="ion-ios-close-circle-outline" data-inline="false" id="delete-btn"></span>
+                        </div>
+                    </div> -->
+
+                    
+                </div>
+            </div>
+
+            <div class="bottom-right list">
+                <div class="titlu-cheltuieli">CHELTUIELI</div>
+
+                <div class="lista-cheltuieli">
+                    
+
+                    <!-- <div class="item" id="cheltuiala-0">
+                        <div class="descriere">Asta e descrierea</div>
+                        <div class="valoare-stergere">
+                            <div class="valoare-item">+200<span class="procent-cheltuiala">20%</span></div>
+                        
+                            <div class="iconify" data-icon="ion-ios-close-circle-outline" data-inline="false" id="delete-btn"></div>
+                        </div>
+                    </div> -->
+
+
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
